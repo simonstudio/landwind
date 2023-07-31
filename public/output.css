@@ -2505,3 +2505,36 @@ input:checked+.toggle-bg {
   margin-right: 5px;
   width: var(--icon-space);
 }
+
+
+.download-button {
+  position: relative;
+  padding: 14px 18px 14px 72px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: #0AAD03;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.download-button::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 18px;
+  margin-top: -20px;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.download-button::before {
+  background-image: url(images/edge.png);
+}
